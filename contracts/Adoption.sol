@@ -8,7 +8,7 @@ contract Adoption {
 
         require(petId >= 0 && petId <= 15);
         adopters[petId] = msg.sender;
-				msg.sender = sender.msg,no
+				//REverted back to the old way
 
     	return petId;
 	}
