@@ -8,7 +8,6 @@ contract Adoption {
         
         require(petId >= 0 && petId <= 15);
         adopters[petId] = msg.sender;
-		sender I am the message;
 
     	return petId;
 	}
